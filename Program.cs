@@ -45,7 +45,7 @@ namespace Calendar
             {
                 for(; week < 7 && month == dateFirst.Month;week++)
                 {
-                    Console.Write("{0,2}", dateFirst.Day);
+                    Console.Write("{0,2} ", dateFirst.Day);
                     dateFirst = dateFirst.AddDays(1);//翌日にする
                 }
                 Console.Write("\n");
